@@ -1,0 +1,29 @@
+{
+	"private": true,
+	"name": "sanguinejs-workspace",
+	"license": "Apache-2.0",
+	"contributors": [
+		{
+			"name": "Kristoffer Roen-Lie"
+		}
+	],
+	"type": "module",
+	"scripts": {
+		"build-toolbox": "tsx ./scripts/build-package.ts @roenlie/package-toolbox",
+		"build": "pnpm build-toolbox && tsx ./scripts/build-package.ts",
+		"release": "pnpm build-toolbox && tsx ./scripts/build-package.ts --publish",
+		"clean": "rimraf --glob packages/**/*/node_modules && rimraf node_modules dist"
+	},
+	"devDependencies": {
+		"@roenlie/eslint-config": "^1.3.4",
+		"@roenlie/package-toolbox": "^1.0.13",
+		"@roenlie/tsconfig": "^1.0.6",
+		"@types/node": "^22.10.2",
+		"happy-dom": "^16.2.6",
+		"rimraf": "^6.0.1",
+		"tsx": "^4.19.2",
+		"typescript": "^5.7.2",
+		"vite": "^6.0.6",
+		"vitest": "^2.1.8"
+	}
+}

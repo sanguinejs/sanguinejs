@@ -1,0 +1,10 @@
+{
+	"extends": "@roenlie/tsconfig",
+	"compilerOptions": {
+		"noEmit": true,
+		"types": [
+			"node"
+		]
+	},
+	"exclude": []
+}

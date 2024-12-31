@@ -26,6 +26,7 @@ coverage
 .next/
 out/
 dist
+.out-dev
 
 
 # Debug

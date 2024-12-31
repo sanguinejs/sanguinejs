@@ -1,0 +1,12 @@
+{
+	"extends": "@roenlie/tsconfig",
+	"compilerOptions": {
+		"types": []
+	},
+	"include": [
+		"**/*.ts",
+	],
+	"exclude": [
+		"dist"
+	]
+}

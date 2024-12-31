@@ -5,7 +5,7 @@ export default defineWorkspace([
 	{
 		test: {
 			name:       'sanguine',
-			include:    [ 'packages/sanguine/**/*.{spec,test,bench}.ts' ],
+			include:    [ 'packages/**/*.{spec,test,bench}.ts' ],
 			setupFiles: [],
 		},
 	},

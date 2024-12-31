@@ -1,0 +1,22 @@
+{
+	"name": "@sanguinejs/injector",
+	"description": "A JSX runtime that transforms JSX into Lit templates.",
+	"authors": "Kristoffer Roen-Lie",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": "./dist/index.js"
+	},
+	"sideEffects": false,
+	"scripts": {
+		"build": "pnpm run --sequential \"/^build::.?/\"",
+		"build::js": "bun build.ts",
+		"build::types": "tsc --project ./src/tsconfig.json --noEmit false --emitDeclarationOnly"
+	},
+	"dependencies": {
+		"nanoid": "^5.0.9"
+	},
+	"devDependencies": {}
+}

@@ -1,0 +1,7 @@
+{
+	"extends": "@roenlie/tsconfig",
+	"compilerOptions": {
+		"noEmit": true
+	},
+	"exclude": []
+}

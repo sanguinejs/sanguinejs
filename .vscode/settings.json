@@ -1,0 +1,77 @@
+{
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"eslint.run": "onType",
+	"eslint.useESLintClass": true,
+	"eslint.useFlatConfig": true,
+	"eslint.format.enable": true,
+	"eslint.validate": [
+		"javascript",
+		"typescript",
+		"typescriptreact"
+	],
+	"eslint.workingDirectories": [
+		{
+			"mode": "auto"
+		}
+	],
+	"[javascript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"typescript.format.insertSpaceAfterTypeAssertion": true,
+	"typescript.format.semicolons": "insert",
+	"javascript.format.semicolons": "insert",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.importModuleSpecifier": "project-relative",
+	"javascript.preferences.importModuleSpecifier": "project-relative",
+	"typescript.preferences.importModuleSpecifierEnding": "js",
+	"javascript.preferences.importModuleSpecifierEnding": "js",
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"workbench.colorCustomizations": {
+		"activityBar.activeBackground": "#6e3636",
+		"activityBar.background": "#6e3636",
+		"activityBar.foreground": "#e7e7e7",
+		"activityBar.inactiveForeground": "#e7e7e799",
+		"activityBarBadge.background": "#000000",
+		"activityBarBadge.foreground": "#e7e7e7",
+		"commandCenter.border": "#e7e7e799",
+		"sash.hoverBorder": "#6e3636",
+		"statusBar.background": "#4c2525",
+		"statusBar.foreground": "#e7e7e7",
+		"statusBarItem.hoverBackground": "#6e3636",
+		"statusBarItem.remoteBackground": "#4c2525",
+		"statusBarItem.remoteForeground": "#e7e7e7",
+		"titleBar.activeBackground": "#4c2525",
+		"titleBar.activeForeground": "#e7e7e7",
+		"titleBar.inactiveBackground": "#4c252599",
+		"titleBar.inactiveForeground": "#e7e7e799"
+	},
+	"peacock.color": "4c2525",
+	"restoreTerminals.runOnStartup": false,
+	"restoreTerminals.terminals": [
+		{
+			"splitTerminals": [
+				{
+					"name": "root",
+					"commands": [
+						"clear"
+					]
+				}
+			]
+		},
+	],
+}

@@ -1,0 +1,19 @@
+{
+	"name": "@sanguinejs/jsx-demo",
+	"description": "demo project for sanguinejs-jsx",
+	"contributors": [
+		"Kristoffer Roen-Lie"
+	],
+	"type": "module",
+	"version": "1.0.0",
+	"main": "pathToMain",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build"
+	},
+	"dependencies": {
+		"@sanguinejs/jsx": "workspace:^",
+		"lit": "^3.2.1",
+		"vite": "^6.0.6"
+	}
+}

@@ -1,7 +1,7 @@
 import type { TemplateResult } from 'lit';
 import { ref as litRef } from 'lit/directives/ref.js';
-import { eventNameCache } from './event-names.ts';
-import type { Config, FakeTemplateResult, FakeTemplateStringsArray } from './runtime-types.ts';
+import { eventNameCache } from './event-names.js';
+import type { Config, FakeTemplateResult, FakeTemplateStringsArray } from './runtime-types.js';
 import { styleMap } from 'lit/directives/style-map.js';
 import { classMap } from 'lit/directives/class-map.js';
 

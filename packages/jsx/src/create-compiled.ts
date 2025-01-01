@@ -1,10 +1,10 @@
 import { styleMap } from 'lit/directives/style-map.js';
 import { ref as litRef } from 'lit/directives/ref.js';
-import { getLitParts } from './jsx-utils.ts';
-import type { Config, FakeCompiledTemplate, FakeCompiledTemplateResult, FakeTemplateStringsArray } from './runtime-types.ts';
+import { getLitParts } from './jsx-utils.js';
+import type { Config, FakeCompiledTemplate, FakeCompiledTemplateResult, FakeTemplateStringsArray } from './runtime-types.js';
 import { classMap } from 'lit/directives/class-map.js';
 import { PartType } from 'lit/directive.js';
-import { eventNameCache } from './event-names.ts';
+import { eventNameCache } from './event-names.js';
 
 
 // These are cached by way of TemplateStringsArray reference, which is unique per call site.

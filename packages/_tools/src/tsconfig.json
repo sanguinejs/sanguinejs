@@ -1,0 +1,16 @@
+{
+	"extends": "@roenlie/tsconfig",
+	"compilerOptions": {
+		"allowImportingTsExtensions": false,
+		"emitDeclarationOnly": false,
+		"declarationMap": false,
+		"declaration": false,
+		"outDir": "${configDir}/../bin",
+		"types": [
+			"node"
+		],
+	},
+	"exclude": [
+		"bin"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "tools",
+	"private": true,
+	"type": "module",
+	"bin": {
+		"tools": "./bin/index.js"
+	},
+	"scripts": {
+		"build": "tsc --project ./src/tsconfig.json"
+	}
+}

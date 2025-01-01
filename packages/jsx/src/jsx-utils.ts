@@ -1,6 +1,6 @@
 import { html, render } from 'lit';
 import { directive, Directive, PartType, type PartInfo } from 'lit/directive.js';
-import type { LitPartConstructors } from './runtime-types.ts';
+import type { LitPartConstructors } from './runtime-types.js';
 
 
 type IfEquals<X, Y, A = X> =

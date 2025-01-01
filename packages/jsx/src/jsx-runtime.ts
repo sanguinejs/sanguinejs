@@ -1,6 +1,5 @@
-import { map } from 'lit/directives/map.js';
-import type { Config, JSXType } from './runtime-types.ts';
-import { createCompiledTemplate } from './create-compiled.ts';
+import type { Config, JSXType } from './runtime-types.js';
+import { createCompiledTemplate } from './create-compiled.js';
 
 
 // When the fragment only has one child, children is the child object.

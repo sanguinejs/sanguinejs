@@ -1,10 +1,12 @@
 {
 	"extends": "@roenlie/tsconfig",
 	"compilerOptions": {
-		"types": []
+		"types": [],
+		"jsx": "react-jsx",
+		"jsxImportSource": "@sanguinejs/jsx"
 	},
 	"include": [
-		"**/*.ts",
+		"**/*.ts", "index.tsx",
 	],
 	"exclude": [
 		"dist"

@@ -1,8 +1,9 @@
 {
 	"extends": "@roenlie/tsconfig",
 	"compilerOptions": {
+		"allowImportingTsExtensions": false,
 		"isolatedDeclarations": true,
-		"allowJs": false
+		"allowJs": false,
 	},
 	"include": [
 		"./**/*.ts",

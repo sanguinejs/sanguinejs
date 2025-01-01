@@ -1,4 +1,4 @@
-import { html, LitElement } from 'lit';
+import {  LitElement } from 'lit';
 
 
 class RootElement extends LitElement {
@@ -9,12 +9,11 @@ class RootElement extends LitElement {
 	}
 
 	protected override render(): unknown {
-		return html`
-		<div>
-			<h1>Hello, world!</h1>
-			<p>This is a LitElement component.</p>
-		</div>
-		`;
+		return (
+			<>
+				<div>Hello there, yay it works</div>
+			</>
+		);
 	}
 
 }
